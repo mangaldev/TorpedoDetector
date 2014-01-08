@@ -10,5 +10,17 @@ First, the Detector outputs data that is equivalent of a black and white image. 
 Second, the data is very noisy – even if there are no spaceships or torpedos in a particular area, some pixels will be “on”, and even if there is a spaceship or torpedo, some of its pixels will be “off”. For example, here's a sample of raw data from the Detector (each “+” is a pixel that is ‘on’):
  
 Below is a sample image of a proton torpedo:
+
+	    +
+	    +
+	   +++
+	 +++++++
+	 ++   ++
+	++  +  ++
+	++ +++ ++
+	++  +  ++
+	 ++   ++
+	 +++++++
+	   +++
  
 On the Detector data, the pixels that should be “on” for a proton torpedo have been highlighted. You can see that more of the highlighted pixels are “on” in the highlighted area than in other areas of the image. You can use this difference to locate spaceships and torpedos in the Detector data.
